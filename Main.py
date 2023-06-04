@@ -5,7 +5,6 @@ from tkinter import ttk
 from Converter import RealTimeCurrencyConverter
 
 class App(tk.Tk):
-
     def __init__(self, converter):
         tk.Tk.__init__(self)
         self.title = 'Currency Converter'
